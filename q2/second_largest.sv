@@ -19,7 +19,7 @@ module model #(
     output logic [DATA_WIDTH-1:0] dout
 );
 
-  reg [DATA_WIDTH-1:0] r_largest, r_second_largest = 1'hx;
+  logic [DATA_WIDTH-1:0] r_largest, r_second_largest = 1'hx;
   always_ff @(posedge clk) begin
     if (!resetn) begin
       r_largest <= 0;

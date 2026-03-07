@@ -19,7 +19,7 @@ module model #(
     output logic [DATA_WIDTH-1:0] dout
 );
 
-  reg [DATA_WIDTH-1:0] ser_data = 0;
+  logic [DATA_WIDTH-1:0] ser_data = 0;
 
   always_ff @(posedge clk) begin
     if (~resetn) begin
