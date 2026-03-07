@@ -1,9 +1,8 @@
-# my chipdev.io solutions
+# my [chipdev.io](https://chipdev.io/) solutions
 
-**Legend**
+
 - ✅ Completed
 - ❌ Not Completed
-
 ---
 
 ## Problems
