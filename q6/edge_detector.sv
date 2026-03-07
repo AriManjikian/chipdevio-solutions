@@ -16,19 +16,16 @@ module model (
     input  din,
     output dout
 );
-
-  reg r_data = 0;
-  reg r_dout = 0;
+  logic data = 0;
+  logic temp = 0;
   always_ff @(posedge clk) begin
     if (!resetn) begin
-      r_data <= 0;
-      r_dout <= 0;
+      data <= 0;
+      temp <= 0;
     end else begin
-      r_data <= din;
-      r_dout <= ~r_data & din;
+      data <= din;
+      temp <= ~data & din;
     end
   end
-
-  assign dout = r_dout;
-
+  assign dout = temp;
 endmodule
