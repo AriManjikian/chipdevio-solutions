@@ -29,11 +29,11 @@
 | 18 | Palindrome Detector | Easy | Tesla, Synopsys | ✅ | [Solution](./q18/palindrome_detector.sv)|
 | 19 | Programmable Sequence Detector | Medium | AMD, ARM | ✅ | [Solution](./q19/programmable_sequence_detector.sv)|
 | 20 | Divide-by-Evens Clock Divider | Easy | Intel, ARM | ✅ | [Solution](./q20/divide_by_evens_clk_divider.sv)|
-| 21 | FizzBuzz | Easy | Intel, Broadcom | ❌ | |
-| 22 | Full Adder | Easy | Tesla, AMD | ❌ | |
-| 23 | Basic ALU (Introduction to Verilog) | Easy | Microsoft | ❌ | |
-| 24 | Ripple Carry Adder (Multiple Modules) | Medium | Nvidia, Cadence | ❌ | |
-| 25 | Flip-Flop Array | Medium | Apple, AMD | ❌ | |
+| 21 | FizzBuzz | Easy | Intel, Broadcom | ✅ | [Solution](./q21/fizzbuzz.sv)|
+| 22 | Full Adder | Easy | Tesla, AMD | ✅ | [Solution](./q22/full_adder.sv)|
+| 23 | Basic ALU (Introduction to Verilog) | Easy | Microsoft | ✅ | [Solution](./q23/basic_alu.sv)|
+| 24 | Ripple Carry Adder (Multiple Modules) | Medium | Nvidia, Cadence | ✅ | [Solution](./q24/ripple_carry_adder.sv)|
+| 25 | Flip-Flop Array | Medium | Apple, AMD | ✅ | [Solution](./q25/ff_array.sv)|
 | 26 | Multi-Bit FIFO | Hard | Tesla, Synopsys | ❌ | |
 | 28 | Dot Product | Medium | Intel, Qualcomm | ❌ | |
 | 29 | Binary to Thermometer Decoder | Easy | Intel, Cadence | ❌ | |
