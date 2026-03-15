@@ -21,14 +21,14 @@
 | 10 | Counting Ones | Easy | Microsoft, ARM | ✅ | [Solution](./q10/count_ones.sv/)|
 | 11 | Gray Code to Binary | Medium | Google, Synopsys | ✅ | [Solution](./q11/gray_code_to_bin.sv/)|
 | 12 | Trailing Zeroes | Easy | Tesla, Microsoft | ✅ | [Solution](./q12/trailing_zeroes.sv/)|
-| 13 | One-Hot Detector | Easy | Broadcom | ❌ | |
-| 14 | Stopwatch Timer | Easy | Intel, Cadence | ❌ | |
-| 15 | Sequence Detector | Easy | Apple, AMD | ❌ | |
-| 16 | Divisible by 3 | Medium | Google, Broadcom | ❌ | |
-| 17 | Divisible by 5 | Medium | Nvidia, Cadence | ❌ | |
-| 18 | Palindrome Detector | Easy | Tesla, Synopsys | ❌ | |
-| 19 | Programmable Sequence Detector | Medium | AMD, ARM | ❌ | |
-| 20 | Divide-by-Evens Clock Divider | Easy | Intel, ARM | ❌ | |
+| 13 | One-Hot Detector | Easy | Broadcom | ✅ | [Solution](./q13/one_hot_detector.sv)|
+| 14 | Stopwatch Timer | Easy | Intel, Cadence | ✅ | [Solution](./q14/stopwatch_timer.sv) |
+| 15 | Sequence Detector | Easy | Apple, AMD | ✅ | [Solution](./q15/sequence_detector.sv)|
+| 16 | Divisible by 3 | Medium | Google, Broadcom | ✅ | [Solution](./q16/div_by_3.sv)|
+| 17 | Divisible by 5 | Medium | Nvidia, Cadence | ✅ | [Solution](./q17/div_by_5.sv)|
+| 18 | Palindrome Detector | Easy | Tesla, Synopsys | ✅ | [Solution](./q18/palindrome_detector.sv)|
+| 19 | Programmable Sequence Detector | Medium | AMD, ARM | ✅ | [Solution](./q19/programmable_sequence_detector.sv)|
+| 20 | Divide-by-Evens Clock Divider | Easy | Intel, ARM | ✅ | [Solution](./q20/divide_by_evens_clk_divider.sv)|
 | 21 | FizzBuzz | Easy | Intel, Broadcom | ❌ | |
 | 22 | Full Adder | Easy | Tesla, AMD | ❌ | |
 | 23 | Basic ALU (Introduction to Verilog) | Easy | Microsoft | ❌ | |
