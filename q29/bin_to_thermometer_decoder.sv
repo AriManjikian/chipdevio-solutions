@@ -5,16 +5,15 @@
 // Input and Output Signals
 // din - Binary, unsigned input word
 // dout - Thermometer output word
-module model #(
-    parameter DATA_WIDTH = 8
-) (
-    input [DATA_WIDTH-1:0] codeIn,
-    output logic isThermometer
+module model (
+    input [7:0] din,
+    output reg [255:0] dout
 );
-
-  always_comb begin
-    if (codeIn == 0 || codeIn == {DATA_WIDTH{1'b1}}) isThermometer = 0;
-    else isThermometer = (codeIn & (codeIn + 1)) == 0;
+  logic [255:0] dec[255:0];
+  genvar i;
+  for (i = 0; i < 2 ** 8; i++) begin
+    assign dec[i] = {{2 ** 8 - i - 1{1'b0}}, {i + 1{1'b1}}};
   end
 
+  assign dout = dec[din];
 endmodule
