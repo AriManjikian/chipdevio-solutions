@@ -34,10 +34,10 @@
 | 23 | Basic ALU (Introduction to Verilog) | Easy | Microsoft | ✅ | [Solution](./q23/basic_alu.sv)|
 | 24 | Ripple Carry Adder (Multiple Modules) | Medium | Nvidia, Cadence | ✅ | [Solution](./q24/ripple_carry_adder.sv)|
 | 25 | Flip-Flop Array | Medium | Apple, AMD | ✅ | [Solution](./q25/ff_array.sv)|
-| 26 | Multi-Bit FIFO | Hard | Tesla, Synopsys | ❌ | |
-| 28 | Dot Product | Medium | Intel, Qualcomm | ❌ | |
-| 29 | Binary to Thermometer Decoder | Easy | Intel, Cadence | ❌ | |
-| 30 | Thermometer Code Detector | Easy | Google, Cadence | ❌ | |
+| 26 | Multi-Bit FIFO | Hard | Tesla, Synopsys |✅ | [Solution](./q26/multi_bit_fifo.sv)|
+| 28 | Dot Product | Medium | Intel, Qualcomm | ✅ | [Solution](./q28/dot_product.sv)|
+| 29 | Binary to Thermometer Decoder | Easy | Intel, Cadence |✅ | [Solution](./q29/bin_to_thermometer_decoder.sv)|
+| 30 | Thermometer Code Detector | Easy | Google, Cadence | ✅| [Solution](./q30/thermometer_code_detector.sv)|
 | 31 | 2-Read 1-Write (2R1W) Register File | Hard | Tesla, AMD | ❌ | |
 | 32 | Configurable 8-Bit LFSR | Medium | Google, Synopsys | ❌ | |
 | 33 | Carry-Select Adder | Medium | Intel, ARM | ❌ | |
