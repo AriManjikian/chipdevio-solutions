@@ -38,8 +38,8 @@
 | 28 | Dot Product | Medium | Intel, Qualcomm | ✅ | [Solution](./q28/dot_product.sv)|
 | 29 | Binary to Thermometer Decoder | Easy | Intel, Cadence |✅ | [Solution](./q29/bin_to_thermometer_decoder.sv)|
 | 30 | Thermometer Code Detector | Easy | Google, Cadence | ✅| [Solution](./q30/thermometer_code_detector.sv)|
-| 31 | 2-Read 1-Write (2R1W) Register File | Hard | Tesla, AMD | ❌ | |
-| 32 | Configurable 8-Bit LFSR | Medium | Google, Synopsys | ❌ | |
+| 31 | 2-Read 1-Write (2R1W) Register File | Hard | Tesla, AMD | ✅ | [Solution](./q31/2r1w_register_file.sv)|
+| 32 | Configurable 8-Bit LFSR | Medium | Google, Synopsys | ✅| [Solution](./q32/configurable_8bit_lfsr.sv)|
 | 33 | Carry-Select Adder | Medium | Intel, ARM | ❌ | |
 | 34 | Bubble Sort | Medium | Tesla, Google | ❌ | |
 | 35 | Mealy Finite State Machine (FSM) | Easy | Google, Microsoft | ❌ | |
